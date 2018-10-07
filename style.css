@@ -1,0 +1,52 @@
+
+body{
+    margin: 0 0 0 1rem;
+    padding: 0;
+    background-image: url(./images/img1.jpg);
+}
+
+.memo{
+    margin:  2rem ;
+    width: 10rem;
+    height: 10rem;
+    border: 0.1rem solid black;
+    min-width: 1280px;
+    min-height: 580px;
+    background: white repeating-linear-gradient(-60deg, #555 0, #555 1px, transparent 1px, transparent 5px);
+}
+
+.tab{
+    display: inline-block;
+    float: left;
+    margin: 2rem 2rem 1rem 3rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    border:0.1rem solid black ;
+    text-align: center;
+    width: 21rem;
+    background: white;
+}
+
+.str{
+    display: none;
+    border: 0.1rem solid black;
+    box-sizing: border-box;
+    background: white
+}
+
+
+.tab:hover .str{
+    position: absolute;
+    display: block;
+    left: 4rem;
+    margin: 1rem 2.1rem ;
+    padding: 1rem;
+    width: 73rem;
+    height: 29rem;
+}
+table{
+    width: 100%;
+    padding: 0;
+    text-align: left;
+}
+
